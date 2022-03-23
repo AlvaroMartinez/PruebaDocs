@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: smolcodes/twentytwenyonetheme # Path to your GitHub repository
+  repo: AlvaroMartinez/PruebaDocs # Path to your GitHub repository
 
   # Uncomment below to enable drafts
   # publish_mode: editorial_workflow

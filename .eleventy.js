@@ -140,9 +140,10 @@ module.exports = (eleventyConfig) => {
     markdownTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
-    dir: {
-      input: 'src',
-      output: 'docs'
+      dir: {
+          pathPrefix: '/PruebaDocs/',
+          input: 'src',
+          output: 'docs'
     }
   };
 };
