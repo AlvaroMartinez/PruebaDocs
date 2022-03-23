@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Your Blog</title>
+	<subtitle>A feed of the latest posts from our blog.</subtitle>
+	<link href=" your url /feed.xml" rel="self"/>
+	<link href=" your url /"/>
+	<updated>2018-04-30T19:00:00-05:00</updated>
+	<id> your url </id>
+	<author>
+    <name>Twenty</name>
+    <email>your email</email>
+	</author>
+	
+    
+    <entry>
+      <title>Start Guide</title>
+      <link href=" your url /Free-Code_Camp/"/>
+      <updated>2020-05-08T19:00:00-05:00</updated>
+      <id> your url /Free-Code_Camp/</id>
+      <content type="html"><![CDATA[
+        <p>Thank you for using the theme. If you want to see an example post go <a href="posts/2021-1-17-installing-hyvor/">here</a>. <a href="https://github.com/smolcodes/twentytwenyonetheme">Download the theme</a></p>
+<h2>Mathjax</h2>
+<p>To use mathjax, simply put your math between <code>\\(...\\)</code> for inline code and between <code>$$...$$</code> for free standing code. <strong>IMPORTANT</strong> do not include the back ticks!</p>
+<p><code>\\(ax^2 + bx + c = 0\\)</code> yields \(z = x + y\) And <code>$$ ax^2 + bx + c = 0 $$</code> gives.</p>
+<blockquote>
+<p>$$ ax^2 + bx + c = 0 $$</p>
+</blockquote>
+<hr>
+<h2>Callout</h2>
+<p>This theme supports 7 callout colors. To make a callout block, start with 3 colons, the name of type of callout you want to use followed by three closing colons.</p>
+<pre class="language-html"><code class="language-html">::: callout-pink<br>Your text<br>:::</code></pre>
+<div class="callout">
+<h3>Standard Collout</h3>
+<hr>
+<p>put by the colon callout.</p>
+</div>
+<div class="callout-yellow">
+<h3>Yellow Callout</h3>
+<hr>
+<p>This is a yellow callout. Put callout-yellow by the colon</p>
+</div>
+<div class="callout-green">
+<h3>Green Callout</h3>
+<hr>
+<p>This is a green callout. Put callout-green by the colon</p>
+</div>
+<div class="callout-pink">
+<h3>Pink Callout</h3>
+<hr>
+<p>This is a pink callout. Put callout-pink by the colon</p>
+</div>
+<div class="callout-purple">
+<h3>purple Callout</h3>
+<hr>
+<p>This is a purple callout. Put callout-purple by the colon</p>
+</div>
+<div class="callout-blue">
+<h3>Blue Callout</h3>
+<hr>
+<p>This is a purple callout. Put callout-purple by the colon</p>
+</div>
+<div class="warning">
+<h3>Warning</h3>
+<hr>
+<p>This is a red callout. Put warning by the colon</p>
+</div>
+<h2>Shortcode</h2>
+<pre class="language-html"><code class="language-html">{% Image "Image URL", "Image description" %}</code></pre>
+<p>This short code will make your images load faster and is responsive. You can use it in your markdown instead of<code>[Image Description](image url)</code>.</p>
+<h2></h2>
+<h2>Hyvor</h2>
+<p>You must have a Hyvor account to use this feature. In sr/_includes/layouts open post.njk and look for</p>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!--- Change  ID number to your Hyvor Website ID. Remove comment line to use Hyvor<br>&lt;div id="hyvor-talk-view">&lt;/div><br>&lt;script type="text/javascript"><br>    var HYVOR_TALK_WEBSITE = IDNUMBER; // DO NOT CHANGE THIS<br>    var HYVOR_TALK_CONFIG = {<br>        url: '{% set absolutePostUrl %}{{ site.url }}{{ post.url | url }}{% endset %}',<br>        id: '{{page.id}}'<br>    };<br>&lt;/script><br>&lt;script async type="text/javascript" src="//talk.hyvor.com/web-api/embed">&lt;/script><br>--></span></code></pre>
+<p>Delete the comment out code (the &lt;! and ---- and --&gt;). Change <code>IDNUMBER</code> to your Website ID from Hyvor.</p>
+<hr>
+<h2>NetlifyCMS</h2>
+<ol>
+<li>Set up a netlify account if you do not already have one and add your repository to it, <a href="https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/">Here is a step by step guide</a></li>
+<li>In src&gt;admin open config.yml in a text editor. Change the repo (repository) to your repository.</li>
+<li>In Netlify you will need to add github in identity&gt;registrations</li>
+</ol>
+<h2>Final remarks</h2>
+<p>I am very new to 11ty and this is my first theme. If you notice any mistakes please feel free to <a href="https://github.com/smolcodes/twentytwenyonetheme/issues">open an issue</a>.<br>
+If you have questions or advice don’t hesitate to talk to me on <a href="https://twitter.com/smolcodes">twiiter</a>.</p>
+<p>Thank you 😊</p>
+<hr>
+<p><a href="https://unsplash.com/photos/gETBUi_oRgQ">Image by Nadi Boradina</a></p>
+
+      ]]></content>
+    </entry>
+	
+    
+    <entry>
+      <title>Synergizing an Effective Pipeline</title>
+      <link href=" your url /2021-1-17-installing-hyvor/"/>
+      <updated>2018-04-30T19:00:00-05:00</updated>
+      <id> your url /2021-1-17-installing-hyvor/</id>
+      <content type="html"><![CDATA[
+        <p>Baseline circle back <a href="http://officeipsum.com/index.php">bench mark</a>, nor let’s schedule a standup during the sprint to review our kpis please submit the sop and uat files by next monday yet productize. Canatics exploratory investigation data masking products need full resourcing and support from a cross-functional team in order to be built, maintained, and evolved punter customer centric drill down strategic high-level 30,000 ft view.</p>
+<ul>
+<li>Personal development high touch client nor on this journey so put your feelers out, and customer centric, yet paddle on both sides.</li>
+<li>To be inspired is to become creative, innovative and energized we want this philosophy to trickle down to all our stakeholders rehydrate the team but player-coach.</li>
+</ul>
+<ol>
+<li>We need to build it so that it scales i need to pee and then go to another meeting data-point.</li>
+<li>Turn the ship we’re starting to formalize flexible opinions around our foundations or I have zero cycles for this, nor we need to leverage our synergies, nor staff engagement.</li>
+</ol>
+<p>Drill down run it up the flagpole, <em>ping the boss</em> and circle back yet low-hanging fruit. Low-hanging fruit.Those options are already baked in with this model work flows<br>
+Synergestic actionables you gotta smoke test your hypothesis our competitors are jumping the shark,</p>
+<blockquote>
+<p>$$ \int_{a}^{b} x^2 ,dx $$</p>
+</blockquote>
+<blockquote>
+<p>Note for the previous submit: the devil should be on the left shoulder deploy red flag.</p>
+</blockquote>
+<p>It’s not hard guys. Five-year strategic plan hire the best but if you want to motivate these clowns, try less carrot and more stick, and prethink, nor optimize for search and are there any leftovers in the kitchen? staff engagement. Where the metal hits the meat pulling teeth. Granularity red flag three-martini lunch.</p>
+<pre class="language-html"><code class="language-html">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mt-0 w-full container mx-auto flex items-center<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-sm mx-auto text-gray-100<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>         <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>list-reset inline-flex<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mr-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/about/<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>🐀 About<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>           <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mr-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/work/<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>📚 Work<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>           <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mr-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>🏠 Home<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>           <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>             <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span><br>             <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">></span></span></code></pre>
+<p>Let’s pressure test this punter quick sync but that jerk from finance really threw me under the bus crisp ppt yet gain traction, or let’s not solutionize this right now parking lot it.</p>
+<h1>This is h1</h1>
+<h2>this is h2</h2>
+<h3>This is h3</h3>
+<table>
+<thead>
+<tr>
+<th>Tables</th>
+<th style="text-align:center">Are</th>
+<th style="text-align:right">Cool</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>col 1 is</td>
+<td style="text-align:center">left-aligned</td>
+<td style="text-align:right">$1600</td>
+</tr>
+<tr>
+<td>col 2 is</td>
+<td style="text-align:center">centered</td>
+<td style="text-align:right">$12</td>
+</tr>
+<tr>
+<td>col 3 is</td>
+<td style="text-align:center">right-aligned</td>
+<td style="text-align:right">$1</td>
+</tr>
+</tbody>
+</table>
+<p>Value prop translating our vision of having a market leading platfrom marketing computer development html roi feedback team website for cross functional teams enable out of the box brainstorming not the long pole in my tent. Eat our own dog food close the loop and what the.</p>
+
+      ]]></content>
+    </entry>
+	
+</feed>
