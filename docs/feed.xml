@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Your Blog</title>
 	<subtitle>A feed of the latest posts from our blog.</subtitle>
-	<link href=" your url /feed.xml" rel="self"/>
-	<link href=" your url /"/>
+	<link href="https://alvaromartinez.github.io/feed.xml" rel="self"/>
+	<link href="https://alvaromartinez.github.io/"/>
 	<updated>2018-04-30T19:00:00-05:00</updated>
-	<id> your url </id>
+	<id>https://alvaromartinez.github.io</id>
 	<author>
     <name>Twenty</name>
     <email>your email</email>
@@ -14,9 +14,9 @@
     
     <entry>
       <title>Start Guide</title>
-      <link href=" your url /Free-Code_Camp/"/>
+      <link href="https://alvaromartinez.github.io/Free-Code_Camp/"/>
       <updated>2020-05-08T19:00:00-05:00</updated>
-      <id> your url /Free-Code_Camp/</id>
+      <id>https://alvaromartinez.github.io/Free-Code_Camp/</id>
       <content type="html"><![CDATA[
         <p>Thank you for using the theme. If you want to see an example post go <a href="posts/2021-1-17-installing-hyvor/">here</a>. <a href="https://github.com/smolcodes/twentytwenyonetheme">Download the theme</a></p>
 <h2>Mathjax</h2>
@@ -92,9 +92,9 @@ If you have questions or advice don’t hesitate to talk to me on <a href="https
     
     <entry>
       <title>Synergizing an Effective Pipeline</title>
-      <link href=" your url /2021-1-17-installing-hyvor/"/>
+      <link href="https://alvaromartinez.github.io/2021-1-17-installing-hyvor/"/>
       <updated>2018-04-30T19:00:00-05:00</updated>
-      <id> your url /2021-1-17-installing-hyvor/</id>
+      <id>https://alvaromartinez.github.io/2021-1-17-installing-hyvor/</id>
       <content type="html"><![CDATA[
         <p>Baseline circle back <a href="http://officeipsum.com/index.php">bench mark</a>, nor let’s schedule a standup during the sprint to review our kpis please submit the sop and uat files by next monday yet productize. Canatics exploratory investigation data masking products need full resourcing and support from a cross-functional team in order to be built, maintained, and evolved punter customer centric drill down strategic high-level 30,000 ft view.</p>
 <ul>
