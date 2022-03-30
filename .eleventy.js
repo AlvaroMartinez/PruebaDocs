@@ -131,7 +131,7 @@ module.exports = (eleventyConfig) => {
   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
   eleventyConfig.setUseGitIgnore(false);
 
-  eleventyConfig.addPassthroughCopy("src/images");
+    eleventyConfig.addPassthroughCopy({"src/images": 'PruebaDocs/images'});
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy('src/admin');
 
